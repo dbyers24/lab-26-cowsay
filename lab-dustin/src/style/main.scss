@@ -1,4 +1,4 @@
-$color-primary: green;
+$color-primary: blue;
 
 * {
   box-sizing: border-box;
@@ -6,6 +6,29 @@ $color-primary: green;
   font-size: 1em;
 }
 
+Navbar {
+  color: red;
+}
+
+pre {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+div {
+  text-align: center;
+  background-color: green;
+  height: 50%;
+}
+
+button {
+  display: inline;
+  width: 25%;
+  text-align: center;
+}
 
 body {
   background: $color-primary;

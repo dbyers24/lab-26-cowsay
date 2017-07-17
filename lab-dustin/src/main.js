@@ -12,7 +12,7 @@ class Navbar extends React.Component {
   {
     return (
       <header className='navbar'>
-      <h3> Generate Cowsay Lorem </h3>
+      <h1> Generate Cowsay Lorem </h1>
       </header>
     );
   }
@@ -35,7 +35,7 @@ class App extends React.Component {
     	  text : faker.hacker.phrase(),
     	  e : "oO",
     	  T : "U "
-      })
+        })
       }
     })
   }
